@@ -1,0 +1,59 @@
+#header{
+    font-family: 'Fauna One', serif;
+    font-size:16px;  
+}
+a:hover{
+    color: white;
+    border-radius:8px ;
+    background-color: rgb(219, 43, 78);
+
+}
+#rosy,
+#text-num2 {
+    font-style:oblique;
+    font-family:'Fauna One', serif;
+    font-weight: 600;
+    font-size: 20px; 
+}
+#second-head{
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(182, 15, 49);
+    font-style: normal;
+}
+#services{
+    font-size:50px; 
+    font-family: 'Times New Roman', Times, serif; 
+    color:rgb(180, 10, 44);
+    font-weight: bold;
+}
+
+body {
+	background: linear-gradient(-45deg, #c9bfbb,  #c7c7c7,#e6d3d3, #acb3b8);
+	background-size: 1000% 1000%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes vibrating {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(5px) rotate(1deg); }
+    50% { transform: translateX(-5px) rotate(-1deg); }
+    75% { transform: translateX(5px) rotate(1deg); }
+    100% { transform: translateX(0); }
+  }
+  
+  #vibrating-card:hover {
+    animation: vibrating 0.5s infinite;
+  }
